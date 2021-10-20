@@ -1,0 +1,33 @@
+ol,ul {
+	list-style: none;
+}
+
+#mainMenu {
+    margin:10px;
+	width: 50%;
+	font-family: sans-serif;
+}
+
+
+#mainMenu li {
+	display:flex;
+    width:120px;
+    height:80px;
+	float:left;
+	margin-left:2px;
+    border:1px solid #000;
+    background-color: dimgrey;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:white;
+}
+#mainMenu a:hover {
+	color:blue;
+}
